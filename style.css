@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  input[type="text"], input[type="date"], input[type="number"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+  .expense-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .remove-btn {
+    background-color: #dc3545;
+    margin-left: 10px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    text-decoration: none;
+    line-height: 1.5;
+  }
+  .remove-btn:hover {
+    background-color: #c82333;
+  }
+  .total {
+    font-size: 1.2em;
+    text-align: right;
+    font-weight: bold;
+  }
+  .error {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
